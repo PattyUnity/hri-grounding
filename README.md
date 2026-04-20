@@ -7,9 +7,9 @@ Companion repository for the paper:
 
 This repository provides example input artifacts and a prompt-assembly script for **Stage 1 (plan generation)** of the HRI grounding architecture. The generated plan is then consumed by the web-based interface engine in a separate repository for **Stages 2-3 (rendering and command binding)**.
 
-> **Interface engine (Stages 2-3):** [mission-control-hub](https://github.com/user/mission-control-hub)
+> **Interface engine (Stages 2-3):** [mission-control-hub](https://github.com/ishaannair/mission-control-hub)
 >
-> **Video demonstration:** [YouTube](https://youtube.com/watch?v=PLACEHOLDER)
+<!-- > **Video demonstration:** [YouTube](https://youtube.com/watch?v=PLACEHOLDER) -->
 
 ---
 
@@ -23,14 +23,14 @@ The architecture has four runtime stages:
        STAGE 1                    STAGES 2-3                  STAGE 4
     Plan Generation            Grounding Layer            Command Dispatch
 
- Context                            ┌─────────────┐
- S, A, G ──┐                        │  Stage 2    │
+ Context                             ┌─────────────┐
+ S, A, G  ──┐                        │  Stage 2    │
             ├──► prompt ──► L        │  Render (R) │──► UI
- Instruction    │              P     │  Eq. 3      │    Vis
- I(F)    ──┘    ▼           ──────► ├─────────────┤
-          LLM planner (L)           │  Stage 3    │         Operator confirms
+ Instruction        │          P     │  Eq. 3      │    Visualization
+ I(F)     ──┘    ▼           ──────► ├─────────────┤
+          LLM planner (L)            │  Stage 3    │         Operator confirms
                                      │  Bind (B)   │──► UI  ──► published to
-          Plan P = L(S,A,G|I)       │  Eq. 4      │    Cmd     robot via ROS
+          Plan P = L(S,A,G|I)        │  Eq. 4      │    Cmd     robot via ROS
           Eq. 2                      └─────────────┘            (Stage 4)
                                         ▲
                                         │
@@ -206,15 +206,18 @@ Three robots (two wheeled UGVs, one aerial UAV) must pick items from shelves and
 ---
 
 ## Citation
+Paper under review. Citation will be added upon publication.
 
+<!--
 ```bibtex
 @article{hrigrounding2025,
-  title   = {{HRI} Grounding for Visible and Actionable {AI}-Generated Plans
-             in Multi-Robot Supervisory Control},
+  title   = {{HRI} Grounding: A Reusable Architecture for Generating Visible and
+             Actionable Supervisory Controls from Context-Aware {AI}-Generated Plans},
   journal = {IEEE Robotics and Automation Letters},
   year    = {2025}
 }
 ```
+-->
 
 ## License
 
