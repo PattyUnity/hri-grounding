@@ -1,0 +1,4 @@
+{
+  "goal": "Extinguish all fires and deliver first aid kit to all survivors.",
+  "constraints": "One extinguisher can extinguish only 2 fires."
+}

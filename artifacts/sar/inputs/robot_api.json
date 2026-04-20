@@ -1,0 +1,95 @@
+{
+  "robots": [
+    {
+      "robot_model": "robot1",
+      "context_for_ai": [
+        "This is a legged robot with arm. It can use extinguisher."
+      ],
+      "actions": [
+        {
+          "action_name": "move",
+          "parameters": {
+            "message_type": "geometry_msgs/PoseStamped"
+          }
+        },
+        {
+          "action_name": "pick",
+          "parameters": {
+            "message_type": "std_msgs/Bool"
+          }
+        },
+        {
+          "action_name": "drop",
+          "parameters": {
+            "message_type": "std_msgs/Bool"
+          }
+        },
+        {
+          "action_name": "extinguish",
+          "parameters": {
+            "message_type": "std_msgs/Bool"
+          }
+        }
+      ]
+    },
+    {
+      "robot_model": "robot2",
+      "context_for_ai": [
+        "This is a drone robot with arm. It can pick and drop light objects such as first aid kits but can't manipulate fire extinguishers."
+      ],
+      "actions": [
+        {
+          "action_name": "move",
+          "parameters": {
+            "message_type": "geometry_msgs/PoseStamped"
+          }
+        },
+        {
+          "action_name": "pick",
+          "parameters": {
+            "message_type": "std_msgs/Bool"
+          }
+        },
+        {
+          "action_name": "deliver",
+          "parameters": {
+            "message_type": "std_msgs/Bool",
+            "note": "target of this action is the servicing target, not the object being delivered."
+          }
+        }
+      ]
+    },
+    {
+      "robot_model": "robot3",
+      "context_for_ai": [
+        "This is a legged robot with arm. It can use extinguisher."
+      ],
+      "actions": [
+        {
+          "action_name": "move",
+          "parameters": {
+            "message_type": "geometry_msgs/PoseStamped"
+          }
+        },
+        {
+          "action_name": "pick",
+          "parameters": {
+            "message_type": "std_msgs/Bool"
+          }
+        },
+        {
+          "action_name": "drop",
+          "parameters": {
+            "message_type": "std_msgs/Bool"
+          }
+        },
+        {
+          "action_name": "extinguish",
+          "parameters": {
+            "message_type": "std_msgs/Bool"
+          }
+        }
+      ]
+    }
+  ]
+}

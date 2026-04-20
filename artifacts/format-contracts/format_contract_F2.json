@@ -1,0 +1,34 @@
+{
+  "mission_plan": [
+    {
+      "action": "explore",
+      "parameters": {
+        "robot_name": "go2",
+        "target_position": { "x": 0, "y": 0, "z": 0 },
+        "target_object": "room1",
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "go1",
+        "target_position": { "x": 0, "y": 0, "z": 0 },
+        "target_orientation": { "x": 0, "y": 0, "z": 0, "w": 1},
+        "target_object": "extinguisher",
+        "object_id": 1,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "go1",
+        "target_position": { "x": 0, "y": 0, "z": 0 },
+        "target_object": "extinguisher",
+        "object_id": 1,
+        "ros_message_type": "bool"
+      }
+    }
+  ]
+}

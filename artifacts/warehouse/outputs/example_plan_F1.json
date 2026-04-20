@@ -1,0 +1,604 @@
+{
+  "mission_plan": [
+    {
+      "robot_ns": "/uav1",
+      "action": "move",
+      "target_object": "Shirt",
+      "obj_id": 1,
+      "params": {
+        "position": {
+          "x": 8.0,
+          "y": -2.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "pick",
+      "target_object": "Shirt",
+      "obj_id": 1,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "move",
+      "target_object": "Shirt",
+      "obj_id": 2,
+      "params": {
+        "position": {
+          "x": 8.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "pick",
+      "target_object": "Shirt",
+      "obj_id": 2,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "move",
+      "target_object": "Box",
+      "obj_id": 1,
+      "params": {
+        "position": {
+          "x": 9.0,
+          "y": -4.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "drop",
+      "target_object": "Box",
+      "obj_id": 1,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/uav2",
+      "action": "move",
+      "target_object": "Shirt",
+      "obj_id": 3,
+      "params": {
+        "position": {
+          "x": 8.0,
+          "y": 2.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav2",
+      "action": "pick",
+      "target_object": "Shirt",
+      "obj_id": 3,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/uav2",
+      "action": "move",
+      "target_object": "Box",
+      "obj_id": 1,
+      "params": {
+        "position": {
+          "x": 9.0,
+          "y": -4.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav2",
+      "action": "drop",
+      "target_object": "Box",
+      "obj_id": 1,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "move",
+      "target_object": "Box",
+      "obj_id": 1,
+      "params": {
+        "position": {
+          "x": 9.0,
+          "y": -4.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "pack_box",
+      "target_object": "Box",
+      "obj_id": 1,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/ugv1",
+      "action": "move",
+      "target_object": "Box",
+      "obj_id": 1,
+      "params": {
+        "position": {
+          "x": 9.0,
+          "y": -4.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/ugv1",
+      "action": "pick",
+      "target_object": "Box",
+      "obj_id": 1,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/ugv1",
+      "action": "move",
+      "target_object": "DropPoint",
+      "obj_id": 1,
+      "params": {
+        "position": {
+          "x": 2.7,
+          "y": -4.09,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/ugv1",
+      "action": "drop",
+      "target_object": "DropPoint",
+      "obj_id": 1,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "move",
+      "target_object": "Shirt",
+      "obj_id": 1,
+      "params": {
+        "position": {
+          "x": 8.0,
+          "y": -2.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "pick",
+      "target_object": "Shirt",
+      "obj_id": 1,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "move",
+      "target_object": "Pants",
+      "obj_id": 2,
+      "params": {
+        "position": {
+          "x": 6.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "pick",
+      "target_object": "Pants",
+      "obj_id": 2,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "move",
+      "target_object": "Box",
+      "obj_id": 2,
+      "params": {
+        "position": {
+          "x": 7.0,
+          "y": -4.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "drop",
+      "target_object": "Box",
+      "obj_id": 2,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/uav2",
+      "action": "move",
+      "target_object": "Jacket",
+      "obj_id": 3,
+      "params": {
+        "position": {
+          "x": 4.0,
+          "y": 2.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav2",
+      "action": "pick",
+      "target_object": "Jacket",
+      "obj_id": 3,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/uav2",
+      "action": "move",
+      "target_object": "Box",
+      "obj_id": 2,
+      "params": {
+        "position": {
+          "x": 7.0,
+          "y": -4.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav2",
+      "action": "drop",
+      "target_object": "Box",
+      "obj_id": 2,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/uav2",
+      "action": "move",
+      "target_object": "Box",
+      "obj_id": 2,
+      "params": {
+        "position": {
+          "x": 7.0,
+          "y": -4.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav2",
+      "action": "pack_box",
+      "target_object": "Box",
+      "obj_id": 2,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/ugv2",
+      "action": "move",
+      "target_object": "Box",
+      "obj_id": 2,
+      "params": {
+        "position": {
+          "x": 7.0,
+          "y": -4.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/ugv2",
+      "action": "pick",
+      "target_object": "Box",
+      "obj_id": 2,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/ugv2",
+      "action": "move",
+      "target_object": "DropPoint",
+      "obj_id": 1,
+      "params": {
+        "position": {
+          "x": 2.7,
+          "y": -4.09,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/ugv2",
+      "action": "drop",
+      "target_object": "DropPoint",
+      "obj_id": 1,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/ugv1",
+      "action": "move",
+      "target_object": "Pants",
+      "obj_id": 2,
+      "params": {
+        "position": {
+          "x": 6.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/ugv1",
+      "action": "pick",
+      "target_object": "Pants",
+      "obj_id": 2,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/ugv1",
+      "action": "move",
+      "target_object": "Pants",
+      "obj_id": 3,
+      "params": {
+        "position": {
+          "x": 6.0,
+          "y": 2.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/ugv1",
+      "action": "pick",
+      "target_object": "Pants",
+      "obj_id": 3,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/ugv1",
+      "action": "move",
+      "target_object": "Jacket",
+      "obj_id": 2,
+      "params": {
+        "position": {
+          "x": 4.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/ugv1",
+      "action": "pick",
+      "target_object": "Jacket",
+      "obj_id": 2,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/ugv1",
+      "action": "move",
+      "target_object": "Box",
+      "obj_id": 3,
+      "params": {
+        "position": {
+          "x": 5.0,
+          "y": -4.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/ugv1",
+      "action": "drop",
+      "target_object": "Box",
+      "obj_id": 3,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/uav2",
+      "action": "move",
+      "target_object": "Jacket",
+      "obj_id": 3,
+      "params": {
+        "position": {
+          "x": 4.0,
+          "y": 2.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav2",
+      "action": "pick",
+      "target_object": "Jacket",
+      "obj_id": 3,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/uav2",
+      "action": "move",
+      "target_object": "Box",
+      "obj_id": 3,
+      "params": {
+        "position": {
+          "x": 5.0,
+          "y": -4.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav2",
+      "action": "drop",
+      "target_object": "Box",
+      "obj_id": 3,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "move",
+      "target_object": "Box",
+      "obj_id": 3,
+      "params": {
+        "position": {
+          "x": 5.0,
+          "y": -4.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/uav1",
+      "action": "pack_box",
+      "target_object": "Box",
+      "obj_id": 3,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/ugv2",
+      "action": "move",
+      "target_object": "Box",
+      "obj_id": 3,
+      "params": {
+        "position": {
+          "x": 5.0,
+          "y": -4.0,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/ugv2",
+      "action": "pick",
+      "target_object": "Box",
+      "obj_id": 3,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    },
+    {
+      "robot_ns": "/ugv2",
+      "action": "move",
+      "target_object": "DropPoint",
+      "obj_id": 1,
+      "params": {
+        "position": {
+          "x": 2.7,
+          "y": -4.09,
+          "z": 0.0
+        }
+      },
+      "msg": "geometry_msgs/PoseStamped"
+    },
+    {
+      "robot_ns": "/ugv2",
+      "action": "drop",
+      "target_object": "DropPoint",
+      "obj_id": 1,
+      "params": {
+        "data": true
+      },
+      "msg": "std_msgs/Bool"
+    }
+  ]
+}

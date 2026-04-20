@@ -1,0 +1,704 @@
+{
+  "mission_plan": [
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 8.0,
+          "y": -2.0,
+          "z": 0.0
+        },
+        "target_object": "Shirt",
+        "object_id": 1,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 8.0,
+          "y": -2.0,
+          "z": 0.0
+        },
+        "target_object": "Shirt",
+        "object_id": 1,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 8.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "target_object": "Shirt",
+        "object_id": 2,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 8.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "target_object": "Shirt",
+        "object_id": 2,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 8.0,
+          "y": 2.0,
+          "z": 0.0
+        },
+        "target_object": "Shirt",
+        "object_id": 3,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 8.0,
+          "y": 2.0,
+          "z": 0.0
+        },
+        "target_object": "Shirt",
+        "object_id": 3,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 6.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "target_object": "Pants",
+        "object_id": 2,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 6.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "target_object": "Pants",
+        "object_id": 2,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/ugv1",
+        "target_position": {
+          "x": 9.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 1,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 9.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 1,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "drop",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 9.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 1,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 9.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 1,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "drop",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 9.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 1,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "pack_box",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 9.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 1,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/ugv1",
+        "target_position": {
+          "x": 2.7,
+          "y": -4.09,
+          "z": 0.0
+        },
+        "target_object": "DropPoint",
+        "object_id": 1,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "drop",
+      "parameters": {
+        "robot_name": "/ugv1",
+        "target_position": {
+          "x": 2.7,
+          "y": -4.09,
+          "z": 0.0
+        },
+        "target_object": "DropPoint",
+        "object_id": 1,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 4.0,
+          "y": 2.0,
+          "z": 0.0
+        },
+        "target_object": "Jacket",
+        "object_id": 3,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 4.0,
+          "y": 2.0,
+          "z": 0.0
+        },
+        "target_object": "Jacket",
+        "object_id": 3,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 8.0,
+          "y": -2.0,
+          "z": 0.0
+        },
+        "target_object": "Shirt",
+        "object_id": 1,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 8.0,
+          "y": -2.0,
+          "z": 0.0
+        },
+        "target_object": "Shirt",
+        "object_id": 1,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 6.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "target_object": "Pants",
+        "object_id": 2,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 6.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "target_object": "Pants",
+        "object_id": 2,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/ugv2",
+        "target_position": {
+          "x": 7.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 2,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 7.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 2,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "drop",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 7.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 2,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 7.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 2,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "drop",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 7.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 2,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "pack_box",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 7.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 2,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/ugv2",
+        "target_position": {
+          "x": 2.7,
+          "y": -4.09,
+          "z": 0.0
+        },
+        "target_object": "DropPoint",
+        "object_id": 1,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "drop",
+      "parameters": {
+        "robot_name": "/ugv2",
+        "target_position": {
+          "x": 2.7,
+          "y": -4.09,
+          "z": 0.0
+        },
+        "target_object": "DropPoint",
+        "object_id": 1,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 6.0,
+          "y": 2.0,
+          "z": 0.0
+        },
+        "target_object": "Pants",
+        "object_id": 3,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 6.0,
+          "y": 2.0,
+          "z": 0.0
+        },
+        "target_object": "Pants",
+        "object_id": 3,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 4.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "target_object": "Jacket",
+        "object_id": 2,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 4.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "target_object": "Jacket",
+        "object_id": 2,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 6.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "target_object": "Pants",
+        "object_id": 2,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 6.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "target_object": "Pants",
+        "object_id": 2,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 4.0,
+          "y": 2.0,
+          "z": 0.0
+        },
+        "target_object": "Jacket",
+        "object_id": 3,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 4.0,
+          "y": 2.0,
+          "z": 0.0
+        },
+        "target_object": "Jacket",
+        "object_id": 3,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/ugv1",
+        "target_position": {
+          "x": 5.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 3,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 5.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 3,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "drop",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 5.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 3,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 5.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 3,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "drop",
+      "parameters": {
+        "robot_name": "/uav2",
+        "target_position": {
+          "x": 5.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 3,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/ugv2",
+        "target_position": {
+          "x": 4.0,
+          "y": 2.0,
+          "z": 0.0
+        },
+        "target_object": "Jacket",
+        "object_id": 3,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "/ugv2",
+        "target_position": {
+          "x": 4.0,
+          "y": 2.0,
+          "z": 0.0
+        },
+        "target_object": "Jacket",
+        "object_id": 3,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/ugv2",
+        "target_position": {
+          "x": 5.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 3,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "drop",
+      "parameters": {
+        "robot_name": "/ugv2",
+        "target_position": {
+          "x": 5.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 3,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "pack_box",
+      "parameters": {
+        "robot_name": "/uav1",
+        "target_position": {
+          "x": 5.0,
+          "y": -4.0,
+          "z": 0.0
+        },
+        "target_object": "Box",
+        "object_id": 3,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "/ugv1",
+        "target_position": {
+          "x": 2.7,
+          "y": -4.09,
+          "z": 0.0
+        },
+        "target_object": "DropPoint",
+        "object_id": 1,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "drop",
+      "parameters": {
+        "robot_name": "/ugv1",
+        "target_position": {
+          "x": 2.7,
+          "y": -4.09,
+          "z": 0.0
+        },
+        "target_object": "DropPoint",
+        "object_id": 1,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "objects": [
+    {
+      "type": "UGV",
+      "id": 1,
+      "location": {
+        "x": 0.0,
+        "y": -0.1,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "UAV",
+      "id": 1,
+      "location": {
+        "x": 0.1,
+        "y": -0.1,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "UGV",
+      "id": 2,
+      "location": {
+        "x": -0.1,
+        "y": 0.1,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "UAV",
+      "id": 2,
+      "location": {
+        "x": -0.1,
+        "y": -0.1,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Box",
+      "id": 1,
+      "location": {
+        "x": 9.0,
+        "y": -4.0,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Box",
+      "id": 2,
+      "location": {
+        "x": 7.0,
+        "y": -4.0,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Box",
+      "id": 3,
+      "location": {
+        "x": 5.0,
+        "y": -4.0,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "DropPoint",
+      "id": 1,
+      "location": {
+        "x": 2.7,
+        "y": -4.09,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Shirt",
+      "id": 1,
+      "location": {
+        "x": 8.0,
+        "y": -2.0,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Shirt",
+      "id": 2,
+      "location": {
+        "x": 8.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Shirt",
+      "id": 3,
+      "location": {
+        "x": 8.0,
+        "y": 2.0,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Pants",
+      "id": 1,
+      "location": {
+        "x": 6.0,
+        "y": -2.0,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Pants",
+      "id": 2,
+      "location": {
+        "x": 6.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Pants",
+      "id": 3,
+      "location": {
+        "x": 6.0,
+        "y": 2.0,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Jacket",
+      "id": 1,
+      "location": {
+        "x": 4.0,
+        "y": -2.0,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Jacket",
+      "id": 2,
+      "location": {
+        "x": 4.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Jacket",
+      "id": 3,
+      "location": {
+        "x": 4.0,
+        "y": 2.0,
+        "z": 0.0
+      }
+    }
+  ]
+}

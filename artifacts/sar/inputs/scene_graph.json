@@ -1,0 +1,166 @@
+{
+  "objects": [
+    {
+      "type": "Fire",
+      "id": 1,
+      "location": {
+        "x": 6.56,
+        "y": -5.84,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Fire",
+      "id": 2,
+      "location": {
+        "x": -2.54,
+        "y": 0.67,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Fire",
+      "id": 3,
+      "location": {
+        "x": 7.24,
+        "y": -3.23,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Fire",
+      "id": 4,
+      "location": {
+        "x": 0.329999924,
+        "y": 1.54,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Fire",
+      "id": 5,
+      "location": {
+        "x": -2.30000019,
+        "y": 4.4,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Fire",
+      "id": 6,
+      "location": {
+        "x": 1.81999993,
+        "y": 3.79,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Extinguisher",
+      "id": 1,
+      "location": {
+        "x": 7.02999973,
+        "y": 2.72,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Extinguisher",
+      "id": 2,
+      "location": {
+        "x": -1.25,
+        "y": 5.03,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Extinguisher",
+      "id": 3,
+      "location": {
+        "x": 4.07,
+        "y": -5.67,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Human",
+      "id": 1,
+      "location": {
+        "x": 2.53,
+        "y": 0.83,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Human",
+      "id": 2,
+      "location": {
+        "x": -0.77,
+        "y": 1.12,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "Human",
+      "id": 3,
+      "location": {
+        "x": 8.85,
+        "y": 2.99,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "FirstAidKit",
+      "id": 1,
+      "location": {
+        "x": -3.5,
+        "y": 4.06,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "FirstAidKit",
+      "id": 2,
+      "location": {
+        "x": 3.31,
+        "y": 3.45,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "FirstAidKit",
+      "id": 3,
+      "location": {
+        "x": 4.42,
+        "y": 0.55,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "robot",
+      "id": 1,
+      "location": {
+        "x": 8.4,
+        "y": -7.62,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "robot",
+      "id": 2,
+      "location": {
+        "x": 4.16,
+        "y": -7.39,
+        "z": 0.0
+      }
+    },
+    {
+      "type": "robot",
+      "id": 3,
+      "location": {
+        "x": -3.04,
+        "y": 2.35,
+        "z": 0.0
+      }
+    }
+  ]
+}

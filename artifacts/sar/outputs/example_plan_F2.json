@@ -1,0 +1,424 @@
+{
+  "mission_plan": [
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot3",
+        "target_position": {
+          "x": -1.25,
+          "y": 5.03,
+          "z": 0.0
+        },
+        "target_object": "Extinguisher",
+        "object_id": 2,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "robot3",
+        "target_position": {
+          "x": -1.25,
+          "y": 5.03,
+          "z": 0.0
+        },
+        "target_object": "Extinguisher",
+        "object_id": 2,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot3",
+        "target_position": {
+          "x": -2.30000019,
+          "y": 4.4,
+          "z": 0.0
+        },
+        "target_object": "Fire",
+        "object_id": 5,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "extinguish",
+      "parameters": {
+        "robot_name": "robot3",
+        "target_position": {
+          "x": -2.30000019,
+          "y": 4.4,
+          "z": 0.0
+        },
+        "target_object": "Fire",
+        "object_id": 5,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot3",
+        "target_position": {
+          "x": 1.81999993,
+          "y": 3.79,
+          "z": 0.0
+        },
+        "target_object": "Fire",
+        "object_id": 6,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "extinguish",
+      "parameters": {
+        "robot_name": "robot3",
+        "target_position": {
+          "x": 1.81999993,
+          "y": 3.79,
+          "z": 0.0
+        },
+        "target_object": "Fire",
+        "object_id": 6,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot1",
+        "target_position": {
+          "x": 4.07,
+          "y": -5.67,
+          "z": 0.0
+        },
+        "target_object": "Extinguisher",
+        "object_id": 3,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "robot1",
+        "target_position": {
+          "x": 4.07,
+          "y": -5.67,
+          "z": 0.0
+        },
+        "target_object": "Extinguisher",
+        "object_id": 3,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot1",
+        "target_position": {
+          "x": 6.56,
+          "y": -5.84,
+          "z": 0.0
+        },
+        "target_object": "Fire",
+        "object_id": 1,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "extinguish",
+      "parameters": {
+        "robot_name": "robot1",
+        "target_position": {
+          "x": 6.56,
+          "y": -5.84,
+          "z": 0.0
+        },
+        "target_object": "Fire",
+        "object_id": 1,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot1",
+        "target_position": {
+          "x": 7.24,
+          "y": -3.23,
+          "z": 0.0
+        },
+        "target_object": "Fire",
+        "object_id": 3,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "extinguish",
+      "parameters": {
+        "robot_name": "robot1",
+        "target_position": {
+          "x": 7.24,
+          "y": -3.23,
+          "z": 0.0
+        },
+        "target_object": "Fire",
+        "object_id": 3,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot3",
+        "target_position": {
+          "x": 7.02999973,
+          "y": 2.72,
+          "z": 0.0
+        },
+        "target_object": "Extinguisher",
+        "object_id": 1,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "robot3",
+        "target_position": {
+          "x": 7.02999973,
+          "y": 2.72,
+          "z": 0.0
+        },
+        "target_object": "Extinguisher",
+        "object_id": 1,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot3",
+        "target_position": {
+          "x": 0.329999924,
+          "y": 1.54,
+          "z": 0.0
+        },
+        "target_object": "Fire",
+        "object_id": 4,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "extinguish",
+      "parameters": {
+        "robot_name": "robot3",
+        "target_position": {
+          "x": 0.329999924,
+          "y": 1.54,
+          "z": 0.0
+        },
+        "target_object": "Fire",
+        "object_id": 4,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot3",
+        "target_position": {
+          "x": -2.54,
+          "y": 0.67,
+          "z": 0.0
+        },
+        "target_object": "Fire",
+        "object_id": 2,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "extinguish",
+      "parameters": {
+        "robot_name": "robot3",
+        "target_position": {
+          "x": -2.54,
+          "y": 0.67,
+          "z": 0.0
+        },
+        "target_object": "Fire",
+        "object_id": 2,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot2",
+        "target_position": {
+          "x": 4.42,
+          "y": 0.55,
+          "z": 0.0
+        },
+        "target_object": "FirstAidKit",
+        "object_id": 3,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "robot2",
+        "target_position": {
+          "x": 4.42,
+          "y": 0.55,
+          "z": 0.0
+        },
+        "target_object": "FirstAidKit",
+        "object_id": 3,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot2",
+        "target_position": {
+          "x": 2.53,
+          "y": 0.83,
+          "z": 0.0
+        },
+        "target_object": "Human",
+        "object_id": 1,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "deliver",
+      "parameters": {
+        "robot_name": "robot2",
+        "target_position": {
+          "x": 2.53,
+          "y": 0.83,
+          "z": 0.0
+        },
+        "target_object": "Human",
+        "object_id": 1,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot2",
+        "target_position": {
+          "x": 3.31,
+          "y": 3.45,
+          "z": 0.0
+        },
+        "target_object": "FirstAidKit",
+        "object_id": 2,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "robot2",
+        "target_position": {
+          "x": 3.31,
+          "y": 3.45,
+          "z": 0.0
+        },
+        "target_object": "FirstAidKit",
+        "object_id": 2,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot2",
+        "target_position": {
+          "x": -0.77,
+          "y": 1.12,
+          "z": 0.0
+        },
+        "target_object": "Human",
+        "object_id": 2,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "deliver",
+      "parameters": {
+        "robot_name": "robot2",
+        "target_position": {
+          "x": -0.77,
+          "y": 1.12,
+          "z": 0.0
+        },
+        "target_object": "Human",
+        "object_id": 2,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot2",
+        "target_position": {
+          "x": -3.5,
+          "y": 4.06,
+          "z": 0.0
+        },
+        "target_object": "FirstAidKit",
+        "object_id": 1,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "pick",
+      "parameters": {
+        "robot_name": "robot2",
+        "target_position": {
+          "x": -3.5,
+          "y": 4.06,
+          "z": 0.0
+        },
+        "target_object": "FirstAidKit",
+        "object_id": 1,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    },
+    {
+      "action": "move",
+      "parameters": {
+        "robot_name": "robot2",
+        "target_position": {
+          "x": 8.85,
+          "y": 2.99,
+          "z": 0.0
+        },
+        "target_object": "Human",
+        "object_id": 3,
+        "ros_message_type": "geometry_msgs/PoseStamped"
+      }
+    },
+    {
+      "action": "deliver",
+      "parameters": {
+        "robot_name": "robot2",
+        "target_position": {
+          "x": 8.85,
+          "y": 2.99,
+          "z": 0.0
+        },
+        "target_object": "Human",
+        "object_id": 3,
+        "ros_message_type": "std_msgs/Bool"
+      }
+    }
+  ]
+}

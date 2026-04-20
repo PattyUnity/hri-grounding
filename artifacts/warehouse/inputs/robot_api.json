@@ -1,0 +1,56 @@
+{
+  "robots": [
+    {
+      "robot_model": "Ridgeback",
+      "robot_ns": [
+        "/ugv1",
+        "/ugv2"
+      ],
+      "context_for_ai": [
+        "Wheeled warehouse AMR (UGV). Can navigate aisles and handle items. Can drop packed boxes at the collection point."
+      ],
+      "actions": [
+        {
+          "action_name": "move",
+          "message_type": "geometry_msgs/PoseStamped"
+        },
+        {
+          "action_name": "pick",
+          "message_type": "std_msgs/Bool"
+        },
+        {
+          "action_name": "drop",
+          "message_type": "std_msgs/Bool"
+        }
+      ]
+    },
+    {
+      "robot_model": "DJIMatrice300",
+      "robot_ns": [
+        "/uav1",
+        "/uav2"
+      ],
+      "context_for_ai": [
+        "Warehouse drone (UAV) for light payloads. Can fly to shelves and service points. Can pack and seal a box, but cannot drop boxes at the collection point."
+      ],
+      "actions": [
+        {
+          "action_name": "move",
+          "message_type": "geometry_msgs/PoseStamped"
+        },
+        {
+          "action_name": "pick",
+          "message_type": "std_msgs/Bool"
+        },
+        {
+          "action_name": "drop",
+          "message_type": "std_msgs/Bool"
+        },
+        {
+          "action_name": "pack_box",
+          "message_type": "std_msgs/Bool"
+        }
+      ]
+    }
+  ]
+}

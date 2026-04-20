@@ -1,0 +1,4 @@
+{
+  "goal": "Pack all orders into boxes.",
+  "constraints": "Scene graph describes warehouse containing shelves of items (e.g.,Shirt1,Pants2). UGVs can carry 3 items at a time, while UAVs carry only2. All robots can drop multiple items at once but all in the same box. Order list: Box1(3 types of shirts); Box2(Shirt1, Pants2, Jactket3); Box3(Pants2 and Pants3, Jactket2 and Jactket3). The box shouldn't be moved befor packing is done and must not be held when an item is to be dropped into it. After all items are in the box, pack and drop it at the collection point, only UGVs can do this. Try to distribute workload among robots equally."
+}
