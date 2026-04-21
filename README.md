@@ -7,7 +7,7 @@ Companion repository for the paper:
 
 This repository provides example input artifacts and a prompt-assembly script for **Stage 1 (plan generation)** of the HRI grounding architecture. The generated plan is then consumed by the web-based interface engine in a separate repository for **Stages 2-3 (rendering and command binding)**.
 
-> **Interface engine (Stages 2-3):** [mission-control-hub](https://github.com/ishaannair/mission-control-hub)
+> **Interface engine (Stages 2-3):** [mission-control-hub](https://github.com/RIL-HRI/mission-control-hub)
 >
 <!-- > **Video demonstration:** [YouTube](https://youtube.com/watch?v=PLACEHOLDER) -->
 
@@ -154,7 +154,7 @@ To see what P looks like, check `artifacts/sar/outputs/example_plan_F1.json`.
 
 Feed a generated plan (or an example plan from `outputs/`) to the web interface engine:
 
-> **[mission-control-hub](https://github.com/user/mission-control-hub)**
+> **[mission-control-hub](https://github.com/RIL-HRI/mission-control-hub)**
 
 The interface engine parses *P* through the DTO, renders each step as an interactive control (Stage 2), and binds each control to a ROS command (Stage 3). The operator confirms or rejects each step with a single click (Stage 4).
 
