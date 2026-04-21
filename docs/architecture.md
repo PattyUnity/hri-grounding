@@ -13,30 +13,30 @@ Context (S, A, G) + Instruction I(F) ──L──► P ──R──► U,    P
 The four runtime stages:
 
 ```
-┌────────────────────────────────────────────────────────────────────────────┐
+┌───────────────────────────────────────────────────────────────────────────┐
 │                      HRI Grounding Architecture                           │
 │                                                                           │
-│  Context: S (scene graph), A (robot API), G (goal)                       │
-│  Instruction: I(F) — prompt template parameterized by format contract F  │
+│  Context: S (scene graph), A (robot API), G (goal)                        │
+│  Instruction: I(F) — prompt template parameterized by format contract F   │
 │                                                                           │
-│  ┌──────────────┐  ┌─────────────┐  ┌─────────────┐  ┌────────────────┐  │
-│  │  STAGE 1     │  │  STAGE 2    │  │  STAGE 3    │  │  STAGE 4       │  │
-│  │  Plan Gen.   │─►│  Render (R) │  │  Bind (B)   │─►│  Dispatch      │  │
-│  │              │  │             │  │             │  │                │  │
-│  │ S,A,G + I(F)│  │ DTO → UI   │  │ DTO → UI   │  │ Operator       │  │
-│  │  → prompt   │  │ Vis        │  │ Cmd ────────│──│► confirms →    │  │
-│  │ P=L(S,A,G|I)│  │            │  │             │  │ publish to ROS │  │
-│  └──────────────┘  └──────┬──────┘  └──────┬──────┘  └────────────────┘  │
-│                           │                │                             │
-│                           └───────┬────────┘                             │
-│                                   │                                      │
-│                          Co-located on the                               │
-│                          same interface element                          │
-│                                                                          │
-│  Format contract F specifies plan step fields (DTO schema, center of     │
-│  Fig. 1 in the paper). The grounding layer consumes the DTO for          │
-│  rendering (R) and binding (B).                                          │
-└────────────────────────────────────────────────────────────────────────────┘
+│  ┌──────────────┐  ┌─────────────┐  ┌─────────────┐  ┌────────────────┐   │
+│  │  STAGE 1     │  │  STAGE 2    │  │  STAGE 3    │  │  STAGE 4       │   │
+│  │  Plan Gen.   │─►│  Render (R) │  │  Bind (B)   │─►│  Dispatch      │   │
+│  │              │  │             │  │             │  │                │   │
+│  │ S,A,G + I(F) │  │ DTO → UI    │  │ DTO → UI    │  │ Operator       │   │
+│  │  → prompt    │  │ Vis         │  │ Cmd ────────│──│► confirms →    │   │
+│  │ P=L(S,A,G|I) │  │             │  │             │  │ publish to ROS │   │
+│  └──────────────┘  └──────┬──────┘  └──────┬──────┘  └────────────────┘   │
+│                           │                │                              │
+│                           └───────┬────────┘                              │
+│                                   │                                       │
+│                          Co-located on the                                │
+│                          same interface element                           │
+│                                                                           │
+│  Format contract F specifies plan step fields (DTO schema, center of      │
+│  Fig. 1 in the paper). The grounding layer consumes the DTO for           │
+│  rendering (R) and binding (B).                                           │
+└───────────────────────────────────────────────────────────────────────────┘
 ```
 
 ## Stage 1: Plan Generation
