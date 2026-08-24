@@ -1,9 +1,10 @@
-# HRI Grounding: Visible and Actionable AI-Generated Plans
+# HRI Grounding
 
 Companion repository for the paper:
 
-> **HRI Grounding for Visible and Actionable AI-Generated Plans in Multi-Robot Supervisory Control**
-> *IEEE Robotics and Automation Letters (RA-L)*
+> **HRI Grounding: Evidence that Operators Authorize and Correct AI Multi-Robot Plans Through a Generated Supervisory Interface**
+> Pattaraorn Yu, Ishaan Nair, Youngbin Song, and Gim Song Soh
+> *IEEE Robotics and Automation Letters*, 2026.
 
 This repository provides example input artifacts and a prompt-assembly script for **Stage 1 (plan generation)** of the HRI grounding architecture. The generated plan is then consumed by the web-based interface engine in a separate repository for **Stages 2-3 (rendering and command binding)**.
 
@@ -206,18 +207,17 @@ Three robots (two wheeled UGVs, one aerial UAV) must pick items from shelves and
 ---
 
 ## Citation
-Paper under review. Citation will be added upon publication.
 
-<!--
+> P. Yu, I. Nair, Y. Song, and G. S. Soh, "HRI Grounding: Evidence that Operators Authorize and Correct AI Multi-Robot Plans Through a Generated Supervisory Interface," *IEEE Robotics and Automation Letters*, 2026.
+
 ```bibtex
-@article{hrigrounding2025,
-  title   = {{HRI} Grounding: A Reusable Architecture for Generating Visible and
-             Actionable Supervisory Controls from Context-Aware {AI}-Generated Plans},
+@article{yu2026hrigrounding,
+  author  = {Yu, Pattaraorn and Nair, Ishaan and Song, Youngbin and Soh, Gim Song},
+  title   = {{HRI} Grounding: Evidence that Operators Authorize and Correct {AI} Multi-Robot Plans Through a Generated Supervisory Interface},
   journal = {IEEE Robotics and Automation Letters},
-  year    = {2025}
+  year    = {2026}
 }
 ```
--->
 
 ## License
 
